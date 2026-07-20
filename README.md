@@ -1,90 +1,161 @@
-# United Airlines Network Performance Optimization
+# ✈️ United Airlines Network Performance Optimization
 
-## 📊 Project Overview
+An end-to-end operational analytics project that analyzes **40,873 United Airlines flights** to identify delay patterns, evaluate operational performance, and recommend schedule improvements using Python and data-driven decision making.
 
-This project analyzes **40,873 United Airlines flights** using Python to identify operational bottlenecks, evaluate delay patterns, and recommend schedule improvements through data-driven analysis.
+---
 
-Using the U.S. Department of Transportation (DOT) On-Time Performance dataset, the project aggregates flight-level records into actionable operational KPIs, investigates the root causes of delays, and simulates schedule adjustments to improve network reliability.
+# 📊 Project Overview
 
-### Business Objective
+This project leverages the U.S. Department of Transportation (DOT) On-Time Performance dataset to analyze United Airlines' flight operations and identify opportunities to improve network reliability.
 
-Identify airline-controllable operational inefficiencies and evaluate whether small schedule changes can improve on-time performance while reducing cumulative delay minutes.
+Using Python and operational analytics techniques, flight-level records were transformed into actionable business insights by evaluating route performance, diagnosing delay root causes, and simulating schedule adjustments to improve on-time performance.
 
-### Key Results
+## 🎯 Business Objective
+
+Identify airline-controllable operational inefficiencies and evaluate whether small schedule adjustments can improve network reliability while reducing cumulative delay minutes.
+
+---
+
+# 📈 Key Results
 
 - Analyzed **40,873 United Airlines flights**
+- Aggregated flight-level data into operational KPIs
 - Identified airline-controllable delays as the primary contributor on the selected route
-- Simulated a **10-minute schedule buffer** on the worst-performing route
-- Improved projected on-time performance from **42% to 63%**
+- Simulated a **10-minute schedule buffer** on the worst-performing route (SFO → ORD)
+- Improved projected On-Time Performance from **42% to 63%**
 - Reduced cumulative delay by **206 minutes**
-- Produced an executive-style report with operational recommendations
+- Developed an interactive executive report with operational recommendations
 
-## 📁 Repository Contents
+---
+
+# 🛠️ Methodology
+
+### Data Collection
+
+- U.S. DOT On-Time Performance Dataset (2015)
+- 40,873 United Airlines mainline flights
+
+### Data Processing
+
+- Data cleaning using Pandas
+- Route-level KPI aggregation
+- Delay categorization
+- Root cause analysis
+- Performance benchmarking
+
+### Operational Analysis
+
+- Route performance comparison
+- Delay cause distribution
+- Airline vs Weather delay analysis
+- Schedule buffer simulation
+- Before-and-after performance evaluation
+
+---
+
+# 📁 Repository Contents
 
 | File | Description |
 |------|-------------|
-| `index.html` | Interactive executive report presenting project findings, visualizations, and business recommendations. |
+| `index.html` | Interactive HTML report presenting methodology, findings, visualizations, and business recommendations. |
 | `UA_Network_Analysis.ipynb` | Python notebook containing data cleaning, exploratory analysis, KPI calculations, and schedule optimization simulation. |
 | `United_Network_Planning_Presentation.pdf` | Executive presentation summarizing the methodology, insights, and recommendations. |
-| `README.md` | Project overview, methodology, and supporting documentation. |
+| `README.md` | Project overview and supporting documentation. |
 
 ---
 
-## 🛠️ Tools & Skills Demonstrated
+# 💻 Tools & Technologies
 
-- **Python** (Pandas) for data cleaning, grouping, and simulation.
-- **Operational analytics**: delay root cause analysis, KPI calculation, schedule buffer modeling.
-- **Data visualization**: stacked bar chart (Chart.js), route performance tables.
-- **Executive communication**: structured narrative, before/after comparisons, actionable recommendation.
-- **Branded reporting**: United Airlines visual identity applied to a standalone HTML report.
-- **GitHub Pages**: live deployment of the interactive report.
-
----
-
-## 🔗 Live Links
-
-## 📂 Project Resources
-
-### 🌐 Interactive Report
-Explore the complete project report and business insights:
-https://gauravchauhan18215-cmyk.github.io/ua-network-analysis/
-
-### 📓 Jupyter Notebook
-View the complete Python analysis and methodology:
-UA_Network_Analysis.ipynb
-
-### 📄 Presentation Slides
-Download the project presentation:
-United_Network_Planning_Presentation.pdf
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- HTML
+- CSS
+- GitHub Pages
 
 ---
 
-## 💼 Skills Demonstrated
+# 📊 Skills Demonstrated
 
-This project demonstrates practical skills applicable to Business Analyst, Operations Analyst, and Network Planning roles, including:
-
-- Operational Performance Analysis
+- Business Analysis
+- Operational Analytics
+- Data Cleaning & Transformation
+- Exploratory Data Analysis (EDA)
 - KPI Development & Reporting
 - Root Cause Analysis
-- Data Cleaning & Transformation
-- Python (Pandas)
-- Business Recommendation Development
-- Executive Reporting & Presentation
-- Data Visualization
-- Process Improvement
 - Schedule Optimization
+- Business Recommendation Development
+- Executive Reporting
+- Data Visualization
+- Python (Pandas)
+- GitHub Pages Deployment
+
 ---
-## 👤 Author
+
+# 🔗 Project Resources
+
+## 🌐 Interactive Report
+
+Explore the complete interactive business report:
+
+**https://gauravchauhan18215-cmyk.github.io/ua-network-analysis/**
+
+---
+
+## 📓 Jupyter Notebook
+
+View the complete Python analysis:
+
+**UA_Network_Analysis.ipynb**
+
+---
+
+## 📄 Executive Presentation
+
+View the presentation summarizing the project findings:
+
+**United_Network_Planning_Presentation.pdf**
+
+---
+
+# 💼 Business Impact
+
+The analysis demonstrates how operational analytics can support airline decision-making by:
+
+- Identifying controllable sources of delay
+- Improving schedule reliability through simulation
+- Supporting data-driven network planning
+- Enhancing operational efficiency
+- Communicating analytical findings through executive-ready reports
+
+---
+
+# 📷 Dashboard Preview
+
+> *(Add 3–4 screenshots of your interactive report here.)*
+
+Suggested screenshots:
+
+- Executive Summary
+- Delay Root Cause Analysis
+- Route Performance Dashboard
+- Schedule Buffer Simulation
+
+---
+
+# 👤 Author
 
 **Gaurav Chauhan**
 
-Business Analyst | Data Analyst
+Business Analyst | Data Analyst | SQL | Python | Power BI
 
-- LinkedIn: https://www.linkedin.com/in/gaurav-chauhan18215/
-- GitHub: https://github.com/gauravchauhan18215-cmyk
+- **LinkedIn:** https://www.linkedin.com/in/gaurav-chauhan18215/
+- **GitHub:** https://github.com/gauravchauhan18215-cmyk
 
 ---
 
-### Disclaimer
+# 📄 Disclaimer
 
-This project was completed independently using publicly available U.S. Department of Transportation (DOT) data for educational and portfolio purposes. Any references to United Airlines are solely to demonstrate analytical techniques and do not imply affiliation or endorsement.
+This project was completed independently using publicly available U.S. Department of Transportation (DOT) data for educational and portfolio purposes. Any references to United Airlines are solely intended to demonstrate analytical techniques and do not imply affiliation, sponsorship, or endorsement by United Airlines.
